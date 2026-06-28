@@ -31,6 +31,7 @@ https://github.com/Ashutosh2128/Trackify
 * ✏️ Edit Tasks
 * 🗑️ Delete Tasks
 * 📋 View All Tasks
+* 🔍 Search & Filter Tasks
 * 📱 Responsive UI
 * ☁️ MongoDB Atlas Database
 * 🚀 Deployed on Vercel & Render
