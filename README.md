@@ -1,16 +1,203 @@
-# React + Vite
+# 🚀 Trackify – MERN Task Management Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Trackify is a full-stack task management application built using the MERN stack. It provides a clean and responsive interface where users can securely create an account, log in, and manage their daily tasks efficiently.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌐 Live Demo
 
-## React Compiler
+**Frontend (Vercel):**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+> https://trackify-ashutosh.vercel.app
 
-## Expanding the ESLint configuration
+**Backend (Render):**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> https://trackify-vpr1.onrender.com
+
+---
+
+## 📂 GitHub Repository
+
+https://github.com/Ashutosh2128/Trackify
+
+---
+
+## ✨ Features
+
+* 🔐 User Authentication (Signup & Login)
+* 🔑 JWT-based Authentication
+* 🛡️ Protected Routes
+* 📝 Create Tasks
+* ✏️ Edit Tasks
+* 🗑️ Delete Tasks
+* 📋 View All Tasks
+* 📱 Responsive UI
+* ☁️ MongoDB Atlas Database
+* 🚀 Deployed on Vercel & Render
+
+---
+
+# 📸 Screenshots
+
+## Landing Page
+
+![Landing Page](./screenshots/landing-page.png)
+
+---
+
+## Login Page
+
+![Login](./screenshots/login-page.png)
+
+---
+
+## Signup Page
+
+![Signup](./screenshots/signup-page.png)
+
+---
+
+## Dashboard
+
+![Dashboard](./screenshots/dashboard.png)
+
+---
+
+## Add Task
+
+![Add Task](./screenshots/add-task-modal.png)
+
+---
+
+# 🛠️ Tech Stack
+
+### Frontend
+
+* React.js
+* Vite
+* Tailwind CSS
+* Axios
+* React Router DOM
+* React Hot Toast
+* Lucide React
+
+### Backend
+
+* Node.js
+* Express.js
+* MongoDB Atlas
+* Mongoose
+* JWT Authentication
+* bcrypt
+* Cookie Parser
+* CORS
+
+---
+
+# 📁 Project Structure
+
+```text
+Trackify/
+│
+├── backend/
+│   ├── config/
+│   ├── controllers/
+│   ├── middleware/
+│   ├── models/
+│   ├── routes/
+│   ├── utils/
+│   ├── server.js
+│   └── package.json
+│
+├── public/
+├── src/
+│   ├── assest/
+│   ├── components/
+│   ├── constants/
+│   ├── context/
+│   ├── hooks/
+│   ├── pages/
+│   ├── routes/
+│   ├── services/
+│   ├── utils/
+│   └── ...
+│
+└── README.md
+```
+
+---
+
+# ⚙️ Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/Ashutosh2128/Trackify.git
+```
+
+---
+
+### Install Frontend Dependencies
+
+```bash
+npm install
+```
+
+---
+
+### Install Backend Dependencies
+
+```bash
+cd backend
+npm install
+```
+
+---
+
+### Configure Environment Variables
+
+Create a `.env` file inside the `backend` folder.
+
+```env
+PORT=5000
+MONGODB_URL=YOUR_MONGODB_CONNECTION_STRING
+JWT_SECRET=YOUR_SECRET_KEY
+```
+
+---
+
+### Start Backend
+
+```bash
+cd backend
+npm run dev
+```
+
+---
+
+### Start Frontend
+
+```bash
+npm run dev
+```
+
+---
+
+# 🚀 Deployment
+
+* **Frontend:** Vercel
+* **Backend:** Render
+* **Database:** MongoDB Atlas
+
+---
+
+# 👨‍💻 Author
+
+**Ashutosh Prusty**
+
+* GitHub: https://github.com/Ashutosh2128
+* LinkedIn: https://www.linkedin.com/in/ashutosh-prusty-
+
+---
+
+## ⭐ If you like this project, consider giving it a star on GitHub!
